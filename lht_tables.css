@@ -17,6 +17,8 @@
    Mobile Styles: 0px to 640px 
    ===============================
 */
+
+
 @media only screen and (max-width: 640px){
     
     table, tbody, tr, td, th, caption{
@@ -58,7 +60,7 @@
     }
     
 }
-
+/* ^ makes all the data cells in the table have color, padding, borders. Also ajusts position of certain elements */
 
 
 /* =============================================
@@ -116,3 +118,4 @@
         color: white;
     }
 }
+/* ^ changes the normal desktop view to a mobile friendly view as the device gets smaller and smaller. Still affects color, size, position, padding, and size of certain elements. */
